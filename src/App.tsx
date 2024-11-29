@@ -1,13 +1,13 @@
-import { PiCaretCircleDoubleDownLight } from 'react-icons/pi'
+
 import './App.css'
-import About from './Components/About me/About'
-import Experience from './Components/Experince'
-import Header from './Components/Header/Header'
-import Hero from './Components/hero/Hero'
-import Portfolio from './Components/Portfolio/Index'
-import Skills from './Components/Skills/Skills'
-import Testimoni from './Components/Testimoni'
-import Contact from './Components/Contact/Index'
+import About from './components/About me/About'
+import Experience from './components/Experince'
+import Header from './components/Header/Header'
+import Hero from './components/hero/Hero'
+import Portfolio from './components/Portfolio/Index'
+import Skills from './components/Skills/Skills'
+import Testimoni from './components/Testimoni'
+import Contact from './components/Contact/Index'
 
 
 function App() {
