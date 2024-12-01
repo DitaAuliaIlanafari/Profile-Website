@@ -1,4 +1,5 @@
 import style from './Hero.module.css'
+import fafafa from './../../assets/fafafa-removebg-preview.png'
 
 
 export default function  Hero(){
@@ -13,7 +14,7 @@ export default function  Hero(){
                     <button>READ MORE</button>
                 </div>
                 <div className={style['column']}>
-                <img src="./src/assets/fafafa-removebg-preview.png" alt="" />
+                <img src={fafafa} alt="" />
                 </div>
             </div> 
         </div>

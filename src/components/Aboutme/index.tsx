@@ -1,4 +1,5 @@
 import style from './About.module.css'
+import pic from '../../assets/Untitled design.jpg'
 
 export default function About(){
     return(
@@ -6,7 +7,7 @@ export default function About(){
             <h1 className={style['h1']}>About Me</h1>
             <div className={style['row']}>
                 <div className={style['column']}>
-                     <img src="./src/assets/Untitled design.jpg" alt="" />
+                     <img src={pic} alt="" />
                 </div>
                 <div className={style['column']}>
                     <p>
