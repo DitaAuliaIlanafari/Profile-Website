@@ -7,7 +7,7 @@ import Hero from './components/Hero'
 import Skills from './components/Skills'
 import Testimoni from './components/Testimoni'
 import Contact from './components/Contact/Index'
-import Portfolio from './components/Portfolio/Index'
+import Portfolio from './components/Portfolio'
 
 
 function App() {
