@@ -1,6 +1,5 @@
 import { Text, Button, Image, Flex} from "@chakra-ui/react"
 import style from './Skills.module.css'
-import javascript from 'https://academy.alterra.id/blog/wp-content/uploads/2021/07/Logo-Javascript.png'
 import phyton from '../../assets/python-logo.png'
 import mysql from '../../assets/mysql_PNG23.png'
 
@@ -14,7 +13,7 @@ export default function Skills(){
             <Flex justify="center" >
                 <Button  marginTop={10} size= {"lg"} rounded={"2x1"} height={"40"} width={180} _hover={{borderColor:"white"}} ><Text> <Image 
                 height="100px"
-                src={javascript}
+                src='https://cdn.worldvectorlogo.com/logos/javascript-1.svg'
                 /> Javascript</Text>
                 </Button>
             
