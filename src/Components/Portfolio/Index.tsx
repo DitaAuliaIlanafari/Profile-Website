@@ -12,7 +12,7 @@ import {
 import style from './portfolio.module.css'
 
 
-export default function Portofolio(){
+export default function Portfolio(){
     return(
         <div className={style["container"]} id="portfolio">
             <h1 className={style['h1']}> Portfolio </h1>

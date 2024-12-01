@@ -1,13 +1,13 @@
 
 import './App.css'
-import About from './components/About me/About'
+import About from './components/About me'
 import Experience from './components/Experince'
-import Header from './components/Header/Header'
-import Hero from './components/hero/Hero'
-import Portfolio from './components/Portfolio/Index'
-import Skills from './components/Skills/Skills'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Skills from './components/Skills'
 import Testimoni from './components/Testimoni'
 import Contact from './components/Contact/Index'
+import Portfolio from './components/Portfolio/Index'
 
 
 function App() {

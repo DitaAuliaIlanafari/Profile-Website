@@ -66,64 +66,6 @@ export default function Testimoni() {
         </Box>
     </Flex>
 
-    <Flex justify='center' paddingTop={10}> 
-        <Box border='1px solid black' borderRadius={25} padding={10}>
-            <Stack maxW="320px" gap="4" fontFamily='Sora'>
-            <HStack gap="4">
-              <Avatar
-                name="Sophie Miller"
-                src="https://img.freepik.com/free-photo/beautiful-working-women-show-their-emotions-with-facial-expressions-gestures_1150-22947.jpg?uid=R175953268&ga=GA1.1.1807638549.1732421243&semt=ais_hybrid"
-              />
-              <Stack textStyle="sm" gap="0">
-                <Text fontWeight="medium">Sophie Miller</Text>
-                <Text color="fg.muted">Senior Designer at Creative Digital Agency</Text>
-              </Stack>
-            </HStack>
-              <Rating colorPalette="orange" readOnly size="xs" defaultValue={5} />
-              <Text>
-              "As a front-end developer, Diana consistently delivered pixel-perfect implementations of our designs. Their collaborative spirit and dedication to creating user-friendly interfaces greatly enhanced our projects. The redesign of our main website was a testament to their exceptional skills."
-              </Text>
-            </Stack>
-        </Box>
-
-        <Box border='1px solid black' borderRadius={25} padding={10} marginLeft={10}>
-            <Stack maxW="320px" gap="4" fontFamily='Sora'>
-            <HStack gap="4">
-              <Avatar
-                name="David Kim"
-                src="https://img.freepik.com/free-photo/smiling-handsome-businessman-suit-standing-with-arms-folded_171337-8370.jpg?uid=R175953268&ga=GA1.1.1807638549.1732421243&semt=ais_hybrid"
-              />
-              <Stack textStyle="sm" gap="0">
-                <Text fontWeight="medium">David Kim</Text>
-                <Text color="fg.muted">Founder of College Connect</Text>
-              </Stack>
-            </HStack>
-              <Rating colorPalette="orange" readOnly size="xs" defaultValue={5} />
-              <Text>
-              "We tasked Diana with creating a social networking app for college students, and they delivered a fantastic product. The app is user-friendly, secure, and perfectly meets our needs. We've received tremendous positive feedback from users, and the app has become an integral part of campus life."
-              </Text>
-            </Stack>
-        </Box>
-
-        <Box border='1px solid black' borderRadius={25} padding={10} marginLeft={10}>
-            <Stack maxW="320px" gap="4" fontFamily='Sora'>
-            <HStack gap="4">
-              <Avatar
-                name="Mary Johnson"
-                src="https://img.freepik.com/premium-photo/beautiful-asian-woman-natural-makeup-wear-fashion-clothes-casual-dress-code-office-style_245570-588.jpg?uid=R175953268&ga=GA1.1.1807638549.1732421243&semt=ais_hybrid"
-              />
-              <Stack textStyle="sm" gap="0">
-                <Text fontWeight="medium">Mary Johnson</Text>
-                <Text color="fg.muted">Manager at FitLife Health</Text>
-              </Stack>
-            </HStack>
-              <Rating colorPalette="orange" readOnly size="xs" defaultValue={5} />
-              <Text>
-              "I highly recommend Diana for their outstanding work on our health and fitness tracking application. They developed a comprehensive solution that our users love. The personalized recommendations and real-time tracking features have been a game-changer for our community. Their professionalism and dedication are unmatched."
-              </Text>
-            </Stack>
-        </Box>
-    </Flex>
     </div>
   )
 }
