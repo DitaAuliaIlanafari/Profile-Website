@@ -13,7 +13,7 @@ export default function  Hero(){
                     <button>READ MORE</button>
                 </div>
                 <div className={style['column']}>
-                <img src="./src/assets/fufufafa.png" alt="" />
+                <img src="./src/assets/fafafa-removebg-preview.png" alt="" />
                 </div>
             </div> 
         </div>

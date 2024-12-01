@@ -6,7 +6,7 @@ export default function About(){
             <h1 className={style['h1']}>About Me</h1>
             <div className={style['row']}>
                 <div className={style['column']}>
-                     <img src="./src/assets/fafafufu.png" alt="" />
+                     <img src="./src/assets/Untitled design.jpg" alt="" />
                 </div>
                 <div className={style['column']}>
                     <p>
