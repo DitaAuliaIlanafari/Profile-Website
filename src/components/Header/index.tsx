@@ -1,20 +1,50 @@
-import style from './Header.module.css'
-import { Link } from "@chakra-ui/react"
+import { Link, Flex } from "@chakra-ui/react";
 
-
-export default function Header(){
-    return(
-      <div className={style['container']}>
-          <nav className={style['navbar']}>
-            <Link margin={30} color={'white'} href="#home">Home</Link>
-            <Link margin={30} color={'white'} href="#about">About</Link>
-            <Link margin={30} color={'white'} href="#skills">Skills</Link>
-            <Link margin={30} color={'white'} href="#portfolio">Portfolio</Link>
-            <Link margin={30} color={'white'} href="#experience">Experience</Link>
-            <Link margin={30} color={'white'} href="#testimoni">Testimonials</Link>
-            <Link margin={30} color={'white'} href="#contact">Contact</Link>
-          </nav>
-      </div>
-    )
+export default function Header() {
+  return (
+    <Flex
+      paddingX={{ base: "", md: "" }}
+      paddingY={{ base: "10px", md: "0px" }}
+      alignItems={{ base: "center" }}
+      justifyContent={{ base: "center" }}
+      bgColor={"black"}
+    >
+      <Link
+        href="#home"
+        color={"white"}
+        px={3}
+        margin={{ base: "6px", md: "16px" }}
+        fontSize={{ base: "12px", md: "16px" }}
+      >
+        Home
+      </Link>
+      <Link
+        href="#about"
+        color={"white"}
+        px={3}
+        margin={{ base: "6px", md: "16px" }}
+        fontSize={{ base: "12px", md: "16px" }}
+      >
+        About
+      </Link>
+      <Link
+        href="#portofolio"
+        color={"white"}
+        px={3}
+        margin={{ base: "6px", md: "16px" }}
+        fontSize={{ base: "12px", md: "16px" }}
+      >
+        Portofolio
+      </Link>
+      <Link
+        href="#contact"
+        color={"white"}
+        px={3}
+        margin={{ base: "6px", md: "16px" }}
+        fontSize={{ base: "12px", md: "16px" }}
+      >
+        Contact
+      </Link>
+    </Flex>
+  );
 }
-

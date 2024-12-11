@@ -6,8 +6,9 @@ import Hero from './components/hero'
 import Skills from './components/Skills'
 import Testimoni from './components/Testimoni'
 import About from './components/Aboutme'
-import Portfolio from './components/Portfolio/Index'
-import Contact from './components/Contact/Index'
+import Portfolio from './components/Portfolio'
+import Contact from './components/Contact'
+
 
 
 function App() {
