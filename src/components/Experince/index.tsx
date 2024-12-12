@@ -63,7 +63,12 @@ export default function Experience() {
           <br />
           <TimelineItem>
             <TimelineContent width="auto">
-              <TimelineTitle whiteSpace="nowrap" marginRight={5} fontSize={16}>
+              <TimelineTitle
+                whiteSpace="nowrap"
+                color={"black"}
+                marginRight={5}
+                fontSize={16}
+              >
                 2021 - 2023
               </TimelineTitle>
             </TimelineContent>
@@ -73,10 +78,11 @@ export default function Experience() {
                 textAlign="justify"
                 fontSize={20}
                 fontWeight="bold"
+                color={"black"}
               >
                 Full-Stack Developer
               </TimelineTitle>
-              <Text fontSize={14} fontWeight="bold">
+              <Text fontSize={14} color={"black"} fontWeight="bold">
                 {" "}
                 Web Solution Ltd
               </Text>
@@ -98,7 +104,12 @@ export default function Experience() {
           <br />
           <TimelineItem>
             <TimelineContent width="auto">
-              <TimelineTitle whiteSpace="nowrap" marginRight={5} fontSize={16}>
+              <TimelineTitle
+                whiteSpace="nowrap"
+                color={"black"}
+                marginRight={5}
+                fontSize={16}
+              >
                 2018 - 2021
               </TimelineTitle>
             </TimelineContent>
@@ -108,10 +119,11 @@ export default function Experience() {
                 textAlign="justify"
                 fontSize={20}
                 fontWeight="bold"
+                color={"black"}
               >
                 Front-End Developer
               </TimelineTitle>
-              <Text fontSize={14} fontWeight="bold">
+              <Text fontSize={14} color={"black"} fontWeight="bold">
                 {" "}
                 Creative Digital Agency
               </Text>
