@@ -27,16 +27,21 @@ export default function Experience() {
         <TimelineRoot paddingTop={{ base: "34px" }}>
           <TimelineItem>
             <TimelineContent width="auto">
-              <TimelineTitle whiteSpace="nowrap" fontSize={16}>
+              <TimelineTitle whiteSpace="nowrap" color={"black"} fontSize={16}>
                 2023 - present
               </TimelineTitle>
             </TimelineContent>
             <TimelineConnector bgColor="indigo.600"></TimelineConnector>
             <Timeline.Content>
-              <TimelineTitle textAlign="left" fontSize={20} fontWeight="bold">
+              <TimelineTitle
+                textAlign="left"
+                color={"black"}
+                fontSize={20}
+                fontWeight="bold"
+              >
                 Senior Full-Stack Developer
               </TimelineTitle>
-              <Text fontSize={14} fontWeight="bold">
+              <Text fontSize={14} color={"black"} fontWeight="bold">
                 {" "}
                 Tech Innovators Inc
               </Text>

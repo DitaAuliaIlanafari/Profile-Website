@@ -35,15 +35,15 @@ export default function Contact() {
           </Stack>
           <br />
           <Fieldset.Content>
-            <Field label="Name">
+            <Field color={"black"} label="Name">
               <Input name="name" />
             </Field>
 
-            <Field label="Email address">
+            <Field color={"black"} label="Email address">
               <Input name="email" type="email" />
             </Field>
 
-            <Field label="--Please select an option--">
+            <Field color={"black"} label="--Please select an option--">
               <NativeSelectRoot>
                 <NativeSelectField
                   name="--Please select an option--"
@@ -53,7 +53,13 @@ export default function Contact() {
             </Field>
           </Fieldset.Content>
 
-          <Button marginTop={10} type="button" alignSelf="flex-start">
+          <Button
+            marginTop={10}
+            bgColor={"black"}
+            color={"white"}
+            type="button"
+            alignSelf="flex-start"
+          >
             Contact me
           </Button>
         </Fieldset.Root>

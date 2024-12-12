@@ -66,7 +66,7 @@ export default function Hero() {
               marginTop={{ base: "30px" }}
               fontSize={{ base: "16px", md: "16px" }}
             >
-              <Link color={"white"} href="#about">
+              <Link color={"white"} bgColor={"black"} href="#about">
                 Read More
               </Link>{" "}
             </Button>
