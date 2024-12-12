@@ -1,5 +1,3 @@
-//
-
 import { Text, Box, Image, Flex } from "@chakra-ui/react";
 import Phyton from "../../../src/assets/python-logo.png";
 import MySql from "../../../src/assets/mysql_PNG23.png";
